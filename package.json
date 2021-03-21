@@ -1,0 +1,23 @@
+{
+  "name": "mywebpack",
+  "version": "1.0.0",
+  "description": "simple webpack",
+  "main": "./src/index.js",
+  "scripts": {
+    "build": "tsc ./src/index.ts",
+    "start": "node ./src/index.js"
+  },
+  "author": "chenziyu",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/parser": "^7.13.11",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/traverse": "^7.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3",
+    "@types/node": "^14.14.35",
+    "@babel/types": "^7.13.0"
+  }
+}
